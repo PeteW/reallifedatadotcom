@@ -1,0 +1,2 @@
+LoadModule mime_module modules/mod_mime.so
+AddType application/json .json
