@@ -4,9 +4,9 @@
             [cljs-aws.base.config :as config]
             [cljs-aws.s3 :as s3]
             [cljs.pprint :as pprint]
+            [goog.object :as g]
             [cljs.core.async :refer [go <!]]
-            [reallifedata.utils :refer [tile]]
-            [reallifedata.appdb :refer [appdb]]))
+            ))
 
 (def XMasonry (reagent/adapt-react-class js/XMasonry))
 (def XBlock (reagent/adapt-react-class js/XBlock))
@@ -24,6 +24,7 @@
         (reset! s3objects (shuffle (:contents response)))))
 
 (defn view []
+  ((g/get js/window "loadSrc") "art")
   [:div [:h2 "art page"]
    [:div>section {:data-featherlight-gallery "" :data-featherlight-filter "a"}
     [XMasonry {:id "grid" :center true :responsive true }

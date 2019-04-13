@@ -1,7 +1,6 @@
 (ns reallifedata.layout
   (:require [reagent.core :as reagent :refer [atom]]
-            [reagent.session :as session]
-            [reallifedata.appdb :refer [appdb]]))
+            ))
 
 (defn layout [body]
   [:div
@@ -28,6 +27,7 @@
    [:div {:class "container"}
     body
     [:div.col-md-12
+      [:p "Source"]
       [:pre#github-iframe {:style {:width "100%"}}]
     ]
    ]

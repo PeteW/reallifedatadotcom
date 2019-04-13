@@ -3,6 +3,7 @@
   (:require [reagent.core :as reagent :refer [atom]]
             [cljsjs.react-xmasonry :as xmasonry]
             [cljs.repl :as repl]
+            [goog.object :as g]
             [cljs.pprint :as pprint]
             [cljs.core.async :refer [<!]]
             [cljs-http.client :as http]))
@@ -10,14 +11,18 @@
 (def XMasonry (reagent/adapt-react-class js/XMasonry))
 (def XBlock (reagent/adapt-react-class js/XBlock))
 
+; project filter for years/tech
 (def projectfilter (atom "All"))
-(def projects (atom []))
-(def src (atom ""))
 
+; project atom loaded from json file
+(def projects (atom []))
+
+; load projects from json file, parse to clojure list and update atom
 (go (let [response (<! (http/get "projects.json"))]
   (reset! projects (js->clj (:items (:body response))))))
 
 (defn view []
+  ((g/get js/window "loadSrc") "oss")
   [:div 
     [:p 
       [:strong "Disclosure: "]
@@ -62,7 +67,4 @@
                                     [:div.tiledate "Date: "
                                       [:a {:href "#/oss"} [:span.badge {:on-click #(reset! projectfilter (:date project))}(:date project)]]])
                                    ]])]]]
-    [:div.row
-     [:div.col-md-12
-      [:pre @src]]]
     ])

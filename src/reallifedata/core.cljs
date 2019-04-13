@@ -12,11 +12,14 @@
       [reagent.core :as r])
     (:import goog.History))
 
+(session/put! :current-page #'index/view)
+
 ;; -------------------------
 ;; Main view function
 (defn page []
-  (layout [:div [(session/get :current-page)]]
-))
+  (layout [:div [(session/get :current-page)]])
+  ;(layout [:div [#'index/view]])
+  )
 
 ;; -------------------------
 ;; Routes
