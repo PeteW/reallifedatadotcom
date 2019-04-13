@@ -13,10 +13,16 @@
       <h3>ClojureScript has not been compiled!</h3>
       <p>please run <b>lein figwheel</b> in order to start the compiler</p>
     </div>
-	<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
-	<script src="js/bootstrap-3.3.4.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/app.js" type="text/javascript"></script>
+    <script>
+      fetch('https://api.github.com/repositories/146805533/contents/src/reallifedata/oss.cljs')
+      .then(function(response) { return response.json(); })
+      .then(function(data) { document.getElementById('github-iframe').innerHTML = atob(data['content']);
+      });
+    </script>
   </body>
 </html>

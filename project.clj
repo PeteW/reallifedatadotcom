@@ -8,6 +8,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.439"]
                  [reagent "0.8.1"]
+                 [cljs-http "0.1.46"]
                  [reagent-utils "0.3.2"]
                  [cljsjs/aws-sdk-js "2.94.0-0"]
                  [clj-commons/secretary  "1.2.4"]
