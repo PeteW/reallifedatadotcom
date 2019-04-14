@@ -1,22 +1,51 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>peter weissbrod journal</title>
+    <meta name="description" content="reallifedata.com is a portfolio site for peter weissbrod">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-443244-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-443244-5');
+    </script>
     <link href="css/site.css" rel="stylesheet" type="text/css">
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+    <script>
+      function loadSrc(componentid){
+          var entityMap = {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;',
+            '/': '&#x2F;',
+            '`': '&#x60;',
+            '=': '&#x3D;'
+          };
+          function escapeHtml (string) {
+            return String(string).replace(/[&<>"'`=\/]/g, function (s) { return entityMap[s]; });
+          }
+
+          fetch('https://api.github.com/repositories/146805533/contents/src/reallifedata/' + componentid + '.cljs')
+          .then(function(response) { return response.json(); })
+          .then(function(data) { document.getElementById('github-iframe').innerHTML = escapeHtml(atob(data['content'])); });
+      }
+    </script>
   </head>
   <body>
     <div id="app">
       <h3>ClojureScript has not been compiled!</h3>
       <p>please run <b>lein figwheel</b> in order to start the compiler</p>
     </div>
-	<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
-	<script src="js/bootstrap-3.3.4.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/app.js" type="text/javascript"></script>
   </body>
 </html>

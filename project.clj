@@ -8,13 +8,18 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.439"]
                  [reagent "0.8.1"]
+                 [cljs-http "0.1.46"]
+                 [goog-jar "1.0.0"]
                  [reagent-utils "0.3.2"]
                  [cljsjs/aws-sdk-js "2.94.0-0"]
                  [clj-commons/secretary  "1.2.4"]
                  [cljsjs/react-xmasonry "2.5.3-1"]
                  [cljs-aws "0.4.3"]
                  ]
-  :externs ["lightbox/imagelightbox.min.js"]
+  :externs [
+            "lightbox/imagelightbox.min.js"
+            "lightbox/imagelightbox.min.js"
+            ]
   :compiler {:foreign-libs [
                             {:file (str "https://sdk.amazonaws.com/js/aws-sdk-2.341.0.js") :provides ["aws-sdk"]}
                             ]}
@@ -47,7 +52,7 @@
                          :pretty-print  true}
                         :figwheel
                         {:on-jsload "reallifedata.core/mount-root"
-                         :open-urls ["http://localhost:3449/home.html"]}}
+                         :open-urls ["http://localhost:3449/index.html"]}}
                        :release
                        {:source-paths ["src" "env/prod/cljs"]
                         ;:hooks [leiningen.cljsbuild]
