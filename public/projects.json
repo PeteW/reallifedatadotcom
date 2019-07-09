@@ -1,5 +1,18 @@
 { "items": [
     {
+        "key":"summon-vault-kv",
+        "description":"A cyberark-summon plugin for hashicorp-vault key/value secrets provider service. This aligns Vault into a growing standard pattern for loading secrets into env variables for bootstrapping processes",
+        "date":"2019",
+        "tech":[
+            "python",
+            "vault",
+            "summon",
+            "secrets"
+        ],
+        "project-url":"https://github.com/PeteW/summon-vault-kv",
+        "picture":"https://www.datocms-assets.com/2885/1508475795-vault-social-share.png"
+    },
+    {
         "key":"AWS Colony Map",
         "description":"A volunteer work for Animal Welfare Society of Kennebunk Maine. Map-based data visualization of feral cat colonies, their owners, sizes throughout the state.",
         "date":"2015",
