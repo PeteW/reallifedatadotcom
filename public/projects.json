@@ -1,5 +1,28 @@
 { "items": [
     {
+        "key":"vim-dadbod-impala",
+        "description":"A custom database adapter which connects the vim-dadbod plugin to impala database services",
+        "date":"2019",
+        "tech":[
+            "vim",
+            "sql",
+            "impala"
+        ],
+        "project-url":"https://github.com/PeteW/vim-dadbod"
+    },
+    {
+        "key":"vault-tokenhelper-env",
+        "description":"A custom tokenhelper plugin for vault which makes the vault tokenfile configuration-driven by envrionment variables (as opposed to hard-coded)",
+        "date":"2019",
+        "tech":[
+            "python",
+            "vault",
+            "secrets"
+        ],
+        "project-url":"https://github.com/PeteW/vault-tokenhelper-env",
+        "picture":"https://www.datocms-assets.com/2885/1508475795-vault-social-share.png"
+    },
+    {
         "key":"summon-vault-kv",
         "description":"A cyberark-summon plugin for hashicorp-vault key/value secrets provider service. This aligns Vault into a growing standard pattern for loading secrets into env variables for bootstrapping processes",
         "date":"2019",
