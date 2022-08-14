@@ -23,7 +23,7 @@
 
 (defn view []
   ((g/get js/window "loadSrc") "oss")
-  [:div 
+  [:div  [:h2 "OSS"]
     [:p 
       [:strong "Disclosure: "]
       "This project list excludes material directly associated or exclusive property of clients and employers or older than 10 years."]

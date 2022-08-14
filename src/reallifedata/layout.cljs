@@ -22,7 +22,8 @@
      [:div {:id "navbar" :class "navbar-collapse"}
       [:ul {:class "nav navbar-nav"}
        [:li>a {:href "#/oss"} "oss"]
-       [:li>a {:href "#/art"} "art"]
+       [:li>a {:href "#/art"} "phys-art"]
+       [:li>a {:href "#/genart"} "gen-art"]
        ]]]]
    [:div {:class "container"}
     body

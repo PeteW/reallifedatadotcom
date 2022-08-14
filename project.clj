@@ -15,6 +15,8 @@
                  [clj-commons/secretary  "1.2.4"]
                  [cljsjs/react-xmasonry "2.5.3-1"]
                  [cljs-aws "0.4.3"]
+                 [quil "3.1.0"]
+                 [org.clojars.frozenlock/reagent-modals "0.2.3"]
                  ]
   :externs [
             "lightbox/imagelightbox.min.js"

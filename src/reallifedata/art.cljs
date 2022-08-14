@@ -25,7 +25,7 @@
 
 (defn view []
   ((g/get js/window "loadSrc") "art")
-  [:div [:h2 "art page"]
+  [:div [:h2 "physical art"]
    [:div>section {:data-featherlight-gallery "" :data-featherlight-filter "a"}
     [XMasonry {:id "grid" :center true :responsive true }
           (for [image @s3objects]

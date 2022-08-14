@@ -10,7 +10,9 @@
      [:p
       [:a {:href "#/oss"} "oss"]
       " | "
-      [:a {:href "#/art"} "art"]
+      [:a {:href "#/art"} "physical art"]
+      " | "
+      [:a {:href "#/genart"} "generative art"]
       ]
    ]
  )

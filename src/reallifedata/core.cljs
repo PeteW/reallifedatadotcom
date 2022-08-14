@@ -8,11 +8,13 @@
       [reallifedata.index :as index]
       [reallifedata.oss :as oss]
       [reallifedata.art :as art]
+      [reallifedata.genart :as genart]
+      [reallifedata.genarttest :as genarttest]
       [reallifedata.layout :refer [layout]]
       [reagent.core :as r])
     (:import goog.History))
 
-(session/put! :current-page #'index/view)
+;(session/put! :current-page #'index/view)
 
 ;; -------------------------
 ;; Main view function
@@ -34,6 +36,11 @@
 (secretary/defroute "/art" []
   (session/put! :current-page #'art/view))
 
+(secretary/defroute "/genart" []
+  (session/put! :current-page #'genart/view))
+
+(secretary/defroute "/genarttest" []
+  (session/put! :current-page #'genarttest/view))
 ;; -------------------------
 ;; History
 ;; must be called after routes have been defined
