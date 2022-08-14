@@ -33,7 +33,7 @@
     [:div {:id "sketch"}])])))
 
 (defn view []
-  ; ((g/get js/window "loadSrc") "genart")
+  ((g/get js/window "loadSrc") "genart")
   [:div [:h2 "generative art"]
    [:div.row]
    [:div.col-md-10
