@@ -16,7 +16,12 @@
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
     <script>
-      function loadSrc(componentid){
+      /*
+      given a reagent component id and (optional) element id
+      place the source code for the component into the element
+      */
+      function loadSrc(componentid, elementId){
+          elementId = elementId || 'github-iframe';
           var entityMap = {
             '&': '&amp;',
             '<': '&lt;',
@@ -32,7 +37,7 @@
           }
           fetch('https://api.github.com/repositories/146805533/contents/src/reallifedata/' + componentid + '.cljs')
           .then(function(response) { return response.json(); })
-          .then(function(data) { document.getElementById('github-iframe').innerHTML = escapeHtml(atob(data['content'])); });
+          .then(function(data) { document.getElementById(elementId).innerHTML = escapeHtml(atob(data['content'])); });
       }
 
       // REFERENCE: view-source:https://ben.akrin.com/canvas_fill/fill_05.html
