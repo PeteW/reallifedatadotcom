@@ -5,6 +5,13 @@
         "name":"perlin noise",
         "description":"based on a perlin noise study credit goes to https://www.bekk.christmas/post/2019/13/functional-generative-art-using-clojurescript",
         "picture":"img/p1.png"
+    },
+    {
+        "key":"reallifedata.genartprojects.p2/create",
+        "src":"genartprojects/p2",
+        "name":"analog to digital time",
+        "description":"simulation of 4x6 analog clocks working in concert to form digital time",
+        "picture":"img/p2.png"
     }
 ]}
 

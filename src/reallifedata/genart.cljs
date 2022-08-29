@@ -32,6 +32,13 @@
     (js/setTimeout #(fun "sketch") 250)
     ((g/get js/window "loadSrc") src "src")
     [:div
+     [:div.row
+      [:a {
+           :style {:float "right" :font-size "30px"}
+           :on-click #(reagent-modals/close-modal!)}
+       [:p "X"]
+       ]
+      ]
      [:div.row {:id "sketch"}]
      [:div.row
       [:div.col-md-12

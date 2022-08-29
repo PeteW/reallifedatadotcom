@@ -85,6 +85,6 @@
    :update #'sketch-update
    :middleware [middleware/fun-mode]
    :settings (fn []
-               (q/random-seed 666)
-               (q/noise-seed 666))))
+               (q/random-seed 600)
+               (q/noise-seed 600))))
 

@@ -33,13 +33,13 @@
        [:div.panel-heading "Date"]
        [:div.panel-body
          (for [t (cons "All" (sort (distinct (map :date @projects))))]
-           [:a {:href "#/oss"} [:div>span.badge {:on-click #(reset! projectfilter t)}(str t)]])
+           [:a {:key (str t) :href "#/oss"} [:div>span.badge {:on-click #(reset! projectfilter t)}(str t)]])
         ]]
       [:div.panel.panel-default
        [:div.panel-heading "Tech"]
        [:div.panel-body
         (for [t (cons "All" (sort (distinct (flatten (map :tech @projects)))))]
-           [:a {:href "#/oss"} [:div>span.badge {:on-click #(reset! projectfilter t)}(str t)]])
+           [:a {:key (str t):href "#/oss"} [:div>span.badge {:on-click #(reset! projectfilter t)}(str t)]])
         ]]
      ]
     [:div.col-md-10
