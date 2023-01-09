@@ -1,5 +1,16 @@
 { "items": [
     {
+        "key":"htmxlab",
+        "description":"A .net-6 containerized app demonstrating common use cases in HTMX as an alternative to single-page-applications",
+        "date":"2023",
+        "tech":[
+            "c#",
+            "html",
+            "javascript"
+        ],
+        "project-url":"https://github.com/PeteW/htmxlab"
+    },
+    {
         "key":"vim-dadbod-impala",
         "description":"A custom database adapter which connects the vim-dadbod plugin to impala database services",
         "date":"2019",
