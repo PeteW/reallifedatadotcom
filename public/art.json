@@ -1,0 +1,889 @@
+{ "items": [
+    {
+        "key":"2kr 1",
+        "description":"40Wx30H - 2kr bouy kittery maine",
+        "description2":"My last painting before my debilitating back injury. This is a playful take on a popular local location with a focus on mystical/fun sky and water colors",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "water"
+        ],
+        "img":"2kr1"
+    },
+    {
+        "key":"2kr 2",
+        "description":"36Wx24H - 2kr bouy kittery maine",
+        "description2":"A revisit to the infamous local bouy this time with a different mid-day color palette",
+        "date":"2025",
+        "size":"L",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "water"
+        ],
+        "img":"2kr2"
+    },
+    {
+        "key":"York Beach 1",
+        "description":"36Wx12H York Beach",
+        "description2":"Long sands is such a dynamic and endless source of inspiration for sky/water/horizon imagery.",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "water"
+        ],
+        "img":"yorkbeach"
+    },
+    {
+        "key":"Cutts Island",
+        "description":"16Wx20H Cutts Island",
+        "description2":"Working off a photo I took October 2024 after regaining the capability to walk. Later this same evening, on return, the path was lit up with northern lights.",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "water"
+        ],
+        "img":"cuttsiland"
+    },
+    {
+        "key":"He will love her forever",
+        "description":"8Wx10H He will love her forever",
+        "description2":"Working off a 2024 October wedding photo I took after the ceremony after folks left for the party leaving this lovely empty scene behind.",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "liminalspace"
+        ],
+        "img":"hewillloveherforever"
+    },
+    {
+        "key":"Bretton Woods #1",
+        "description":"8Wx10H Bretton Woods",
+        "description2":"Zealand Falls trail Jan 2025",
+        "date":"2025",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"brettonwoods"
+    },
+    {
+        "key":"Lincoln 3",
+        "description":"10Wx8H Lincoln #3",
+        "description2":"An empty field off Rt 175 with a fresh coat of snow.",
+        "date":"2025",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"lincoln3"
+    },
+    {
+        "key":"Portsmouth Waterside",
+        "description":"8Wx10H Portsmouth Waterside",
+        "description2":"Featured work in NHAA Gallery Jan-Feb 2025",
+        "date":"2025",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "city",
+          "water"
+        ],
+        "img":"portsmouthwaterside"
+    },
+    {
+        "key":"Fort Foster #2",
+        "description":"8Wx10H Fort Foster",
+        "description2":"A new take on the iconic Fort Foster pier",
+        "date":"2025",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "city",
+          "water",
+          "liminalspace"
+        ],
+        "img":"fortfoster2"
+    },
+    {
+        "key":"",
+        "description":"12Wx46H Wal-Mart #2",
+        "description2":"Trees behind newington wal-mart back-lit by the highway traffic.",
+        "date":"2025",
+        "size":"L",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "city",
+          "forest",
+          "liminalspace"
+        ],
+        "img":"walmart2"
+    },
+    {
+        "key":"Route 236",
+        "description":"8Wx10H Route 236 Sunrise",
+        "description2":"Driving on a cold february morning",
+        "date":"2025",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "city",
+          "forest",
+          "dawn-dusk",
+          "liminalspace"
+        ],
+        "img":"rt236"
+    },
+    {
+        "key":"Nubble Point",
+        "description":"40Wx36H Sky turbulence. Also Nubble on the lower left.",
+        "description2":"In person it makes an imposing presence.",
+        "date":"2025",
+        "size":"L",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "city"
+        ],
+        "img":"nubblepoint"
+    },
+    {
+        "key":"Ashland #1",
+        "description":"12Wx36H Ashland NH Fall 2023",
+        "description2":"High gloss and texture",
+        "date":"2023",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"ashland1"
+    },
+    {
+        "key":"Ashland #2",
+        "description":"10Wx8H Ashland NH Winter 2024",
+        "description2":"Bright winter day in the hills",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"ashland2"
+    },
+    {
+        "key":"Cannon Mountain #1",
+        "description":"18Wx24H Cannon Mountain",
+        "description2":"Summit, Dusk",
+        "date":"2023",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest",
+          "dawn-dusk"
+        ],
+        "img":"cannonmtn"
+    },
+    {
+        "key":"Commercial Alley #1",
+        "description":"30Wx40H Commercial Alley #1",
+        "description2":"1 of a 3 part series on Portsmouth Commercial Alley inspired by Van Gogh Cafe Terrace",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "liminalspace",
+          "city"
+        ],
+        "img":"commercialalley1"
+    },
+    {
+        "key":"Commercial Alley #2",
+        "description":"30Wx40H Commercial Alley #2",
+        "description2":"2 of a 3 part series on Portsmouth Commercial Alley inspired by Van Gogh Cafe Terrace",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "liminalspace",
+          "city"
+        ],
+        "img":"commercialalley2"
+    },
+    {
+        "key":"Commercial Alley #3",
+        "description":"40Wx30H Commercial Alley #3",
+        "description2":"3 of a 3 part series on Portsmouth Commercial Alley inspired by Van Gogh Cafe Terrace",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "liminalspace",
+          "city"
+        ],
+        "img":"commercialalley3"
+    },
+    {
+        "key":"Elephants",
+        "description":"24Wx20H Elephants",
+        "description2":"2024 Commission",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+        ],
+        "img":"elephants"
+    },
+    {
+        "key":"Fall Water #1",
+        "description":"30Wx24H Fall Water",
+        "description2":"The light of new england foliage reflected off the water",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "water",
+          "forest"
+        ],
+        "img":"fallwater1"
+    },
+    {
+        "key":"Folly Pond",
+        "description":"10Wx8H Folly Pond",
+        "description2":"A commission of a friend's dogs at Folly Pond York",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "water",
+          "forest"
+        ],
+        "img":"follypond"
+    },
+    {
+        "key":"Fort Collins",
+        "description":"24Wx10H Fort Collins Winter",
+        "description2":"Just a fun project with sunset and trees. Note the mountain bike.",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "forest"
+        ],
+        "img":"follypond"
+    },
+    {
+        "key":"Highland Square",
+        "description":"24Wx36H Highlands Square",
+        "description2":"Morning after snowfall in the city",
+        "date":"2025",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "city",
+          "liminalspace"
+        ],
+        "img":"highlandssquare"
+    },
+    {
+        "key":"Fort Foster #1",
+        "description":"30Wx20H Fort Foster Rocks and Water",
+        "description2":"Impressions of waterside fort foster",
+        "date":"2023",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "forest",
+          "water"
+        ],
+        "img":"fortfoster"
+    },
+    {
+        "key":"Cocheco Falls",
+        "description":"36Wx24H Cocheco Falls",
+        "description2":"The light reflected off the falls at dusk is a source of inspiration",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "dawn-dusk",
+          "city"
+        ],
+        "img":"dover"
+    },
+    {
+        "key":"Bath Maine Park",
+        "description":"24Wx36H Bath Maine",
+        "description2":"Original sold at Soul Models fundraiser Fall 2024",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"bathpark"
+    },
+    {
+        "key":"Bouys",
+        "description":"24Wx24H Bouys",
+        "description2":"Fun with colorful Bouys. Low gloss high texture",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+        ],
+        "img":"bouys"
+    },
+    {
+        "key":"Kennebunkport #1",
+        "description":"8Wx10H Kennebunkport",
+        "description2":"Coordinates painted into side of boat",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water"
+        ],
+        "img":"kennebunkport"
+    },
+    {
+        "key":"Kennebunkport #2",
+        "description":"48Wx36H Kennebunkport",
+        "description2":"Impression of a dinghy left behind while the boat is on a journey",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water",
+          "liminalspace"
+        ],
+        "img":"kennebunkport2"
+    },
+    {
+        "key":"Magnolias #1",
+        "description":"10Wx8H Magnolias",
+        "description2":"Playing with color and the classic flowers of spring",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+        ],
+        "img":"magnolias1"
+    },
+    {
+        "key":"Magnolias #2",
+        "description":"24Wx20H Magnolias",
+        "description2":"Playing with color and the classic flowers of spring",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+        ],
+        "img":"magnolias2"
+    },
+    {
+        "key":"Market Street",
+        "description":"30Wx20H Market St",
+        "description2":"First of many Portsmouth night projects. Wet street. High gloss",
+        "date":"2023",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city",
+          "liminalspace"
+        ],
+        "img":"marketstreet"
+    },
+    {
+        "key":"Odiorne Point",
+        "description":"48Wx36H Odiorne Point",
+        "description2":"Waves hitting the rocks on a late summer day",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"odiornepoint"
+    },
+    {
+        "key":"Martha's Vineyard #3",
+        "description":"16Wx20H Martha's Vineyard #3",
+        "description2":"Water reflections of Oak Bluff Sunset",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"mvwater1"
+    },
+    {
+        "key":"Martha's Vineyard #2",
+        "description":"24Wx30H Martha's Vineyard #2",
+        "description2":"Foot path peering through trees at the water",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water"
+        ],
+        "img":"mv2"
+    },
+    {
+        "key":"Martha's Vineyard #1",
+        "description":"8Wx10H Martha's Vineyard",
+        "description2":"Katama Beach South End",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water"
+        ],
+        "img":"mv"
+    },
+    {
+        "key":"Montreal",
+        "description":"40Wx30H Old Town Montreal",
+        "description2":"Park down by the water",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city",
+          "liminalspace"
+        ],
+        "img":"montreal"
+    },
+    {
+        "key":"Lincoln #2",
+        "description":"24Wx24H Lincoln Apple Trees",
+        "description2":"Winter Route 175",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"lincoln2"
+    },
+    {
+        "key":"Old Orchard Beach #1",
+        "description":"30Wx24H Old Orchard Beach",
+        "description2":"Pier. High Gloss/Texture",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "city",
+          "dawn-dusk"
+        ],
+        "img":"oldorchardbeach"
+    },
+    {
+        "key":"Old Orchard Beach #2",
+        "description":"40Wx30H Old Orchard Beach Under Pier",
+        "description2":"Interplay of water flow and light/shadow. High texture.",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "city",
+          "dawn-dusk",
+          "liminalspace"
+        ],
+        "img":"oldorchardbeach2"
+    },
+    {
+        "key":"Sebago Tire Tracks",
+        "description":"24Wx20H Sebago Tire Tracks",
+        "description2":"A lilac tree in winter next to where the trucks get on the lake",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "liminalspace",
+          "dawn-dusk"
+        ],
+        "img":"sebagotiretracks"
+    },
+    {
+        "key":"Seapoint Beach #1",
+        "description":"40Wx30H Seapoint Beach",
+        "description2":"Seapoint Beach. Intense color and motion. Staghorn Sumac",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"seapointbeach"
+    },
+    {
+        "key":"Squam Lake #1",
+        "description":"36Wx12H Sunset Squam Lake",
+        "description2":"High gloss / texture",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"squamlake"
+    },
+    {
+        "key":"York Woods #1",
+        "description":"8Wx10H York Woods #1",
+        "description2":"1 of 4 part series",
+        "date":"2023",
+        "size":"S",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest",
+          "dawn-dusk"
+        ],
+        "img":"yorkwoods1"
+    },
+    {
+        "key":"York Woods #2",
+        "description":"30Wx40H York Woods #2",
+        "description2":"2 of 4 part series",
+        "date":"2023",
+        "size":"L",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest",
+          "dawn-dusk"
+        ],
+        "img":"yorkwoods2"
+    },
+    {
+        "key":"York Woods #3",
+        "description":"30Wx40H York Woods #3",
+        "description2":"3 of 4 part series",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"yorkwoods3"
+    },
+    {
+        "key":"York Woods #4",
+        "description":"30Wx24H York Woods #4",
+        "description2":"4 of 4 part series",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"yorkwoods4"
+    },
+    {
+        "key":"Wiggly Bridge",
+        "description":"24Wx36H Wiggly Bridge",
+        "description2":"Famous bridge in York. Featured in NHAA Gallery Feb 2025",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city"
+        ],
+        "img":"wigglybridge"
+    },
+    {
+        "key":"Wharf Street",
+        "description":"24Wx36H Wharf St Portland",
+        "description2":"Inspired by Van Gogh Cafe Terrace and the cobblestones of wharf st",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city"
+        ],
+        "img":"wharfstreet"
+    },
+    {
+        "key":"Walmart #1",
+        "description":"16Wx20H Walmart",
+        "description2":"Liminal space. Lakewood CO. Empty, barren yet hopeful",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city",
+          "liminalspace"
+        ],
+        "img":"walmart"
+    },
+    {
+        "key":"One Longfellow Square",
+        "description":"36Wx48H OLS Building",
+        "description2":"The Portland Theater",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city"
+        ],
+        "img":"onelongfellowsquare"
+    },
+    {
+        "key":"Tugboat Alley",
+        "description":"48Wx36H Tugboat Alley",
+        "description2":"Featured in NHAA Gallery Fam 2025",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "summer"
+        ],
+        "tags":[
+          "water",
+          "city"
+        ],
+        "img":"tugboatalley"
+    },
+    {
+        "key":"Squam Lake #2",
+        "description":"8Wx10H Sunset Squam Lake",
+        "description2":"Intense textured sunset. Several copies of this available.",
+        "date":"2024",
+        "size":"S",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk",
+          "liminalspace"
+        ],
+        "img":"squamlake2"
+    },
+    {
+        "key":"Rt 1a Bridge #2",
+        "description":"40Wx30H route 1a bridge",
+        "description2":"From the perspective of the bouy shack",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "city",
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"rt1abridge2"
+    },
+    {
+        "key":"Rt 1a Bridge",
+        "description":"48Wx36H route 1a bridge",
+        "description2":"An original take on an old scene",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "city",
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"rt1abridge"
+    },
+    {
+        "key":"Pine Alley",
+        "description":"24Wx30H Pine Alley",
+        "description2":"",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest",
+          "dawn-dusk"
+        ],
+        "img":"pinealley"
+    },
+    {
+        "key":"Pepperell Cove #1",
+        "description":"12Wx14H Pepperell Cove Sunrise",
+        "description2":"Subtle details come out the more you look at it.",
+        "date":"2023",
+        "size":"S",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"pepperellcove"
+    },
+    {
+        "key":"Penobscot Bay",
+        "description":"24Wx48H Penobscot Bay",
+        "description2":"Featured in NHAA March 2025",
+        "date":"2024",
+        "size":"L",
+        "season":[
+          "fall"
+        ],
+        "tags":[
+          "water",
+          "dawn-dusk"
+        ],
+        "img":"penobscotbay"
+    },
+    {
+        "key":"Killington",
+        "description":"18Wx24H Killington",
+        "description2":"Glade trail",
+        "date":"2024",
+        "size":"M",
+        "season":[
+          "winter"
+        ],
+        "tags":[
+          "forest"
+        ],
+        "img":"killington"
+    },
+    {
+        "key":"Annapolis",
+        "description":"30Wx24H Downtown Annapolis",
+        "description2":"",
+        "date":"2023",
+        "size":"M",
+        "season":[
+          "spring"
+        ],
+        "tags":[
+          "city",
+          "liminalspace"
+        ],
+        "img":"annapolis"
+    }
+]}
+
