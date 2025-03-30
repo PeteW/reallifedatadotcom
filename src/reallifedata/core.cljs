@@ -26,21 +26,17 @@
 ;; -------------------------
 ;; Routes
 (secretary/set-config! :prefix "#")
-
 (secretary/defroute "/" []
+  (session/put! :current-page #'art/view))
+(secretary/defroute "/about" []
   (session/put! :current-page #'index/view))
-
 (secretary/defroute "/oss" []
   (session/put! :current-page #'oss/view))
-
-(secretary/defroute "/art" []
-  (session/put! :current-page #'art/view))
-
 (secretary/defroute "/genart" []
   (session/put! :current-page #'genart/view))
-
 (secretary/defroute "/genarttest" []
   (session/put! :current-page #'genarttest/view))
+
 ;; -------------------------
 ;; History
 ;; must be called after routes have been defined

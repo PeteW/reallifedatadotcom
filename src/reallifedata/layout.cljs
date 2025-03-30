@@ -19,10 +19,11 @@
        [:span.icon-bar]
        ]
       [:a {:class "navbar-brand", :href "#"} "Peter Weissbrod"]]
-     [:div {:id "navbar" :class "navbar-collapse"}
+     [:div {:id "navbar" :class "navbar-collapse collapse"}
       [:ul {:class "nav navbar-nav"}
+       [:li>a {:href "#/about"} "about/contact"]
        [:li>a {:href "#/oss"} "oss"]
-       [:li>a {:href "#/art"} "phys-art"]
+       [:li>a {:href "#/"} "phys-art"]
        [:li>a {:href "#/genart"} "gen-art"]
        ]]]]
    [:div {:class "container"}
